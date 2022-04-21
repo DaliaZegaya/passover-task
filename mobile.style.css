@@ -163,6 +163,7 @@ a {
     height: 45vh;
     animation-name: mobile-gallery;  
     animation-duration: 15s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes mobile-gallery {
