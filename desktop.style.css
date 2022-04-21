@@ -60,12 +60,14 @@
     grid-area: footer;
     height: 10vh;
     border: 2px solid black;
+    font-size: large;
 
 }
 
+
+
 #mainpic {
-    height: 15vh;
-    width: 10vw;
+
     border-radius: 100px;
     height: 200px;
     width: 250px;
@@ -75,15 +77,15 @@
 }
 
 #mainpic:hover {
-    height: 30vh;
-    width: 18vw;
-    filter: drop-shadow(15px 10px 10px black);
+    transform: scale(1.1);
+    filter: drop-shadow(10px 10px 5px #E3B7A0);
 }
 
 .myself {
     display: flex;
   justify-content: center;
-  align-items: center;
+  align-items:center;
+  flex-direction: column;
    
 }
     

@@ -64,6 +64,10 @@
     justify-content: center;
 }
 
+.fullstack {
+    font-size: small;
+}
+
 .aboutme {
     background-color: transparent;
     width: 70vw;
@@ -71,6 +75,7 @@
     color: black;
     font: bolder;   
     text-align: center;
+   
 
 }
 
@@ -82,26 +87,25 @@
 }
 
 #mainpic {
-    height: 10vh;
+    height: 5vh;
     width: 5vw;
     border-radius: 100px;
     height: 100px;
     width: 150px;
     transition: all;
     transition-duration: 3s;
-
 }
 
 #mainpic:hover {
-    height: 15vh;
-    width: 10vw;
-    filter: drop-shadow(15px 10px 5px #632626);
+    transform: scale(1.1);
+    filter: drop-shadow(10px 8px 8px #886F6F);
 }
 
 .myself {
     display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
    
 }
 
