@@ -1,0 +1,149 @@
+
+.thediv {
+    background-image: url(images/background.webp);
+    background-color: #E2C275;
+    background-size:cover;
+    background-attachment: fixed;
+    width: 100vw;
+    display: grid;
+    grid-template-areas: 
+    'header header header header'
+    'side-bar main main main'
+    'side-bar main main main'
+    'footer footer footer footer';
+    
+}
+
+.header {
+    grid-area: header;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    border: 2px solid black;
+
+}
+
+
+.sidebar {
+    grid-area: side-bar;
+    width: 10vw;
+    border: 2px solid black;
+    color: #F4DFBA;
+
+}
+
+.main {
+    display: flex;
+    grid-area: main;
+    flex-direction: column;
+    justify-content: center;
+    width: 90vw;
+    border: 2px solid black;
+}
+
+.korot {
+    display: flex;
+    justify-content: center;
+}
+
+.aboutme {
+    width: 70vw;
+    border: 4px solid black;
+    color: black;
+    font: bolder;   
+    text-align: center;
+
+}
+
+.footer {
+    grid-area: footer;
+    height: 10vh;
+    border: 2px solid black;
+
+}
+
+#mainpic {
+    height: 15vh;
+    width: 10vw;
+    border-radius: 100px;
+    height: 200px;
+    width: 250px;
+    transition: all;
+    transition-duration: 3s;
+
+}
+
+#mainpic:hover {
+    height: 30vh;
+    width: 18vw;
+    filter: drop-shadow(15px 10px 10px black);
+}
+
+.myself {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+   
+}
+    
+
+.logo {
+    width: 3vw;
+    height: 4vh;
+}
+
+.projects {
+    border: 4px solid black;
+    width: 70vw;
+    text-align: center;
+
+}
+
+.pro-cot {
+    display: flex;
+    justify-content: center;
+}
+
+.pro-pic {
+    width: 30vw;
+    height: 30vh;
+    
+}
+
+.pro {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color: black;
+    text-decoration-color: black;
+}
+
+.aside {
+    color: #F4DFBA;
+    text-decoration-line: none;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+
+.photos {
+    height: 200px;
+    width: 250px;
+    border: 3px solid black;
+}
+
+#menu-pic {
+    display: none;
+}
+
+.mobile-gallery {
+    display: none;
+}
+
